@@ -15,7 +15,8 @@ Para ejecutar el servidor, solo debemos:
 1. Abrir una consola
 2. Ubicarse en la carpeta del proyecto.
 3. Ejecutar el comando "ng serve -o" o "ng serve" en la consola.
-4. Esto ejecutara un servidor local en puerto 4200 http://localhost:4200/
+4. Esto ejecutara un servidor local en puerto 4200.
+5. Ahora, puede abrir su navegador y ingresar la siguiente url para ver la aplicación: http://localhost:4200/
 
 
 ## Advertencia
