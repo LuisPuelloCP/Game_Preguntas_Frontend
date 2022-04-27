@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+.container .title {
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #2c2c2c;
+}
+
+.row2 {
+    width: 60vmin;
+    height: 60vmin;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    outline: 1px solid #2c2c2c;
+    border-radius: 5px;
+    margin: 0 auto !important;
+}
+
+
+.row2 form input,
+.row2 form button {
+    width: 50%;
+}

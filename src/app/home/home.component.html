@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row">
+        <h1 class="title">
+            Concurso de preguntas y respuestas
+        </h1>
+        <hr>
+    </div>
+    <div class="row row2">
+      <form  class="row2" (ngSubmit)="obtenerUser()">
+        <input name="username" type="text" class="form-control" placeholder="Ingrese su nombre de usuario" [(ngModel)] = "username" >
+        <button type="submit" class="btn btn-primary form-control">Validar usuario</button>
+      </form>
+    </div>
+</div>

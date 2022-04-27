@@ -1,0 +1,65 @@
+<div class="container">
+    <div class="row">
+        <h1 class="title">
+            Concurso de preguntas y respuestas
+        </h1>
+        <hr>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row mb-3">
+        <div class="col-4">
+            <div class="card" style="width: 18rem; ">
+                <div class="card-body" id="datosUser">
+                  <h5 class="card-title">{{user.username}}</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Puntaje acumulado: {{user.reward}}</h6>
+                  <button type="button" class="btn btn-danger" (click)="terminar()">Terminar juego</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-4">
+          <div class="card" style="width: 18rem; ">
+              <div class="card-body" id="datosUser">
+                <h5 class="card-title">Categoria: Programación</h5>
+              </div>
+          </div>
+      </div>
+
+        
+        <div class="col-3">
+            <div class="card" style="width: 16rem;">
+                <div class="card-body" id="numberAnswer">
+                  <h5 class="card-title">Pregunta {{sigQuestion+1}} / 5</h5>
+                  <p class="card-subtitle mb-2 text-muted">Round {{cont}} - Level : {{level}}</p>
+                </div>
+            </div>
+            <h2></h2>
+            <p> </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <div class="card" style="align-items: center;">
+                <div class="card-body">
+                    <h5 class="card-title">{{pregunta.description}}</h5>
+                    <div class="list-group input-group mb-3">
+                        <button class="btn btn-primary" type="button" id="inputGroupFileAddon0" (click)="validar(0)">{{opciones[0]}}</button>
+                      </div>
+                      <div class="list-group input-group mb-3">
+                        <button class="btn btn-primary" type="button" id="inputGroupFileAddon1" (click)="validar(1)">{{opciones[1]}}</button>
+                      </div>
+                      <div class="list-group input-group mb-3">
+                        <button class="btn btn-primary" type="button" id="inputGroupFileAddon2" (click)="validar(2)">{{opciones[2]}}</button>
+                      </div>
+                      <div class="list-group input-group mb-3">
+                        <button class="btn btn-primary" type="button" id="inputGroupFileAddon3" (click)="validar(3)">{{opciones[3]}}</button>
+                      </div>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
