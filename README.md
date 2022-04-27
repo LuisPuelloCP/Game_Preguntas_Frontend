@@ -1,27 +1,24 @@
 # App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
 
-## Development server
+## Paso 1: Preparar el proyecto
+Para preparar el proyecto, solo es necesario:
+1. Abrir una consola
+2. Ubicarse en la carpeta del proyecto.
+3. Ejecutar el comando "npm install" en la consola.
+4. Esto generara la carpeta node_modules que contendrá todo lo que necesita la aplicación para funcionar
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Paso 2: Ejecutar el proyecto
+Para ejecutar el servidor, solo debemos:
 
-## Code scaffolding
+1. Abrir una consola
+2. Ubicarse en la carpeta del proyecto.
+3. Ejecutar el comando "ng serve -o" o "ng serve" en la consola.
+4. Esto ejecutara un servidor local en puerto 4200 http://localhost:4200/
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Advertencia
+Para que la aplicacion funcione correctamente, debe usar la otra parte de este proyecto. <br>
+Este es link del proyecto complementario https://github.com/LuisPuelloCP/Game_Preguntas_Backend <br>
+Siga las instrucciones y ejecute los dos proyectos al tiempo.
