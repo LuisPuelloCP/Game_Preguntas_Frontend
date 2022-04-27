@@ -1,7 +1,7 @@
 # App
 
 Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0. <br>
-Puede realizar el proceso de instalación guiandose de la documentación en el siguiente link https://angular.io/guide/setup-local
+Si no cuenta con Angular, puede realizar el proceso de instalación guiandose de la documentación en el siguiente link https://angular.io/guide/setup-local
 
 ## Paso 1: Preparar el proyecto
 Para preparar el proyecto, solo es necesario:
